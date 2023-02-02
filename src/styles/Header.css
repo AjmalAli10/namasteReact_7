@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 100px; */
+    margin-top: -25px;
+    /* border: 1px solid black; */
+}
+.nav-items > ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.nav-items > ul > li{
+    padding: 10px;
+}
+.logo{
+    width: 50%;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    mix-blend-mode: color-burn;
+}

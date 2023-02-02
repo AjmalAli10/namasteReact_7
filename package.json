@@ -1,0 +1,34 @@
+{
+  "name": "namstereact_6",
+  "version": "1.0.0",
+  "description": "Exploring the world",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel public/index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AjmalAli10/namsteReact_6.git"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "Ajmal Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AjmalAli10/namsteReact_6/issues"
+  },
+  "homepage": "https://github.com/AjmalAli10/namsteReact_6#readme",
+  "devDependencies": {
+    "buffer": "^5.7.1",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "axios": "^1.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.0"
+  }
+}
