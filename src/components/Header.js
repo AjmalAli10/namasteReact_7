@@ -11,16 +11,22 @@ const Header = () =>{
             </a>
             <div className="nav-items">
                 <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/about">About</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contact</Link>
-                    </li>
-                    <li>Cart</li>
+                    <Link to="/" >
+                        <li className="nav-lists">
+                            Home
+                        </li>
+                    </Link>
+                    <Link to="/about">
+                        <li className="nav-lists">
+                            About
+                        </li>
+                    </Link>
+                    <Link to="/contact">
+                        <li className="nav-lists">
+                            Contact
+                        </li>
+                    </Link>
+                    <li className="nav-lists">Cart</li>
                 </ul>
             </div>
             <div>

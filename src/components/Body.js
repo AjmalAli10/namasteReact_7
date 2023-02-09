@@ -22,6 +22,14 @@ const Body = () =>{
         getRestuarantData()
     },[]);  
 
+    useEffect(()=>{
+        timerId = setTimeout(()=>{
+            setSearchInput(searchInput)
+        }, 1000)
+        return ()=> clearTimeout(timerId)
+    },[searchInput])
+
+    
     async function getRestuarantData(){
         try{
             const res = await axios.get("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING");

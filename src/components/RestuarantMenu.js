@@ -6,6 +6,7 @@ import "../styles/RestuarantMenu.css";
 import Shimmer from "./Shimmer";
 function RestuarantMenu(){
      const [res, setRes] = useState(null)
+    //  console.log(useState())
     /** Below are Expriment */
     // const restuarantMenu= useState({});
     // const res = restuarantMenu[0];
@@ -34,8 +35,7 @@ function RestuarantMenu(){
      */
     useEffect(()=>{
         getRestuarantMenu();
-    }, []);
-
+    },[]);
     const getRestuarantMenu = async ()=>{
        try{
             const getData = await fetch("https://www.swiggy.com/dapi/menu/v4/full?lat=12.9351929&lng=77.62448069999999&menuId="+resId);
